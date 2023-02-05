@@ -21,8 +21,8 @@
           "sls"
         ],
         "icon": {
-          "light": "./icons/Slome2LogoBig.png",
-          "dark": "./icons/Slome2LogoBig.png"
+          "light": "./icons/Slome2LogoSmall.png",
+          "dark": "./icons/Slome2LogoSmall.png"
         },
         "configuration": "./language-configuration.json"
       }
