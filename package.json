@@ -4,7 +4,11 @@
   "description": "Support for SlomeScript",
   "version": "1.0.0",
   "publisher": "Sebastiaan Heins",
-  "icon": "./icons/Slome2LogoBig.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robotnik08/slomescript-vscodesupport"
+  },
+  "icon": "icons/Slome2LogoBig.png",
   "license": "Me",
   "engines": {
     "vscode": "*"
@@ -21,8 +25,8 @@
           "sls"
         ],
         "icon": {
-          "light": "./icons/Slome2LogoSmall.png",
-          "dark": "./icons/Slome2LogoSmall.png"
+          "light": "icons/Slome2LogoSmall.png",
+          "dark": "icons/Slome2LogoSmall.png"
         },
         "configuration": "./language-configuration.json"
       }
