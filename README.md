@@ -12,5 +12,4 @@ Grammar and colors
 
 Initial release of SlomeScript Support
 
-# get SlomeScript here
-
+# get SlomeScript <a href="https://github.com/Robotnik08/SlomeScript">here</a>
