@@ -1,0 +1,33 @@
+{
+  "name": "slomescript-support",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "Sebastiaan Heins",
+  "license": "Me",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "slomescript",
+        "extensions": [
+          ".sls"
+        ],
+        "aliases": [
+          "SlomeScript",
+          "sls"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "slomescript",
+        "scopeName": "source.sls",
+        "path": "./syntaxes/sls.tmLanguage.json"
+      }
+    ]
+  }
+}
