@@ -4,6 +4,7 @@
   "description": "Support for SlomeScript",
   "version": "1.0.0",
   "publisher": "Sebastiaan Heins",
+  "icon": "./icons/Slome2LogoBig.png",
   "license": "Me",
   "engines": {
     "vscode": "*"
@@ -19,6 +20,10 @@
           "SlomeScript",
           "sls"
         ],
+        "icon": {
+          "light": "./icons/Slome2LogoBig.png",
+          "dark": "./icons/Slome2LogoBig.png"
+        },
         "configuration": "./language-configuration.json"
       }
     ],
