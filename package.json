@@ -2,7 +2,7 @@
   "name": "slomescript-vscodesupport",
   "displayName": "SlomeScript",
   "description": "Support for SlomeScript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "SebastiaanHeins",
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
       {
         "id": "slomescript",
         "extensions": [
-          ".slome",".slomescript", ".sls"
+          ".slome",
+          ".slomescript",
+          ".sls"
         ],
         "aliases": [
           "SlomeScript",
@@ -38,5 +40,8 @@
         "path": "./syntaxes/sls.tmLanguage.json"
       }
     ]
+  },
+  "dependencies": {
+    "vsce": "^2.15.0"
   }
 }

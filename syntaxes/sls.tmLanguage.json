@@ -1,5 +1,5 @@
 {
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"name": "SlomeScript",
 	"scopeName": "source.sls",
 	"comment": "Modified from the VB bundle. Originally modified by Thomas Aylott subtleGradient.com, then modified by VScode, then modified by me!",
