@@ -2,8 +2,8 @@
   "name": "slomescript-vscodesupport",
   "displayName": "SlomeScript",
   "description": "Support for SlomeScript",
-  "version": "1.0.0",
-  "publisher": "Sebastiaan Heins",
+  "version": "1.0.1",
+  "publisher": "SebastiaanHeins",
   "repository": {
     "type": "git",
     "url": "https://github.com/Robotnik08/slomescript-vscodesupport"
@@ -18,7 +18,7 @@
       {
         "id": "slomescript",
         "extensions": [
-          ".sls",".slomescript"
+          ".slome",".slomescript"
         ],
         "aliases": [
           "SlomeScript",
