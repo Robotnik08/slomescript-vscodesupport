@@ -2,7 +2,7 @@
 	"version": "1.0.0",
 	"name": "SlomeScript",
 	"scopeName": "source.sls",
-	"comment": "Modified from the VB bundle. Originally modified by Thomas Aylott subtleGradient.com, then modified by VScode.",
+	"comment": "Modified from the VB bundle. Originally modified by Thomas Aylott subtleGradient.com, then modified by VScode, then modified by me!",
 	"patterns": [
 		{
 			"patterns": [
@@ -52,7 +52,7 @@
 			]
 		},
 		{
-			"match": "(?i:\\b(SAY|RETURN)\\b)",
+			"match": "(?i:\\b(SAY|RETURN|PAUSE|ALLOC)\\b)",
 			"name": "support.function.vb.asp"
 		},
 		{
